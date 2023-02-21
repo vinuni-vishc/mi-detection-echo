@@ -1,0 +1,83 @@
+data/
+papers/
+publications/
+*tmp
+*.DS_Store
+*tmp*
+*.avi
+*.gif
+*.npz
+# IPython
+profile_default/
+ipython_config.py
+segment/MNIST/
+segment/Pytorch-UNet/
+segment/wandb/
+segment/model_weights/
+segment/model_weights_epochs/
+
+motion/tmp2/
+motion/tmp3/
+motion/tmp_infer/
+motion/gif/
+flownet/tmp2/
+mid-dl/models_weights*
+mid-dl/model_weights_epochs/
+mid-dl/mw*
+mid-dl/mwe*
+mid-dl/0*
+mid-dl/1*
+mid-dl/2*
+mid-dl/tmp*
+
+mi-detection/features
+
+*.npz
+mi-multi-labels/
+
+*.mp4
+contrastive_learning/mi_triplet/mc3_18__20220517/
+contrastive_learning/mi_triplet/mc3_18**
+contrastive_learning/mi_triplet/mobilenet__6__train8_test2__20220530/
+contrastive_learning/mi_triplet/resnet18__6__train8_test2__20220530/
+contrastive_learning/triplet-network-pytorch/
+contrastive_learning/mi_triplet/xlsx/*
+ext-feat/data_frame/
+ext-feat/My3DCNN*
+ext-feat/mc3_18*
+*/xlsx/
+wandb/
+*/gif/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# models/ckpt_5folds/
+*ckpt*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+*/.ipynb_checkpoints/*
+*.gif
+*ipynb_checkpoints*
+*.png
+*.avi
+*.jpg
+segment/*.csv
