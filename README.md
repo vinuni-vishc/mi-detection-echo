@@ -8,5 +8,6 @@
 ``` conda env update --prefix ./env --file environment.yml --prune # update the environment ```
 
 ## Run the code
-
+In the process of cleaning
 ## Check the log
+In the process of cleaning
